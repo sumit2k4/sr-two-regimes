@@ -1,0 +1,23 @@
+# Manuscript: confidential until the article is published. Never commit.
+paper/
+figs/
+*.pdf
+Paper3_*.tex
+Fig1_*
+
+# Datasets: fetched by code/fetch_data.py
+data/
+
+# Large intermediates (~8.5 GB): regenerate with the run_*.sh scripts.
+# The small per-model training summaries are kept in sr_summaries/ instead.
+runs/
+
+# Python
+__pycache__/
+*.pyc
+
+# Editor and OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

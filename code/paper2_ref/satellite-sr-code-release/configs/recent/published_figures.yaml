@@ -1,0 +1,34 @@
+# Published UC Merced x4 figures quoted directly from the cited papers (Table 11).
+# Reported with a "*" and an explicit citation. They follow each paper's OWN
+# degradation pipeline and split, so they are indicative, not strictly protocol-identical.
+# These values are NEVER overwritten by retraining.
+
+MBGPIN:
+  reference: "[29] Safarov et al., Remote Sensing, 17(5):805, 2025"
+  dataset: ucmerced
+  scale: 4
+  psnr: 31.34
+  ssim: 0.912
+  lpips: null        # not reported in the source
+  source_note: "MDPI rs17050805, Table 4 (UC Merced x4)"
+
+DEGAN:
+  reference: "[31] Li et al., Frontiers in Earth Science, 13:1578321, 2025"
+  dataset: ucmerced
+  scale: 4
+  psnr: 28.90        # paper reports 28.901
+  ssim: 0.796        # paper reports 0.7962
+  lpips: null        # not reported for this setting
+  source_note: "Frontiers feart.2025.1578321, Table 2 (UC Merced x4)"
+
+# Methods below do NOT report a directly comparable UC Merced x4 PSNR/SSIM, so they
+# are obtained only by retraining under our protocol (see configs/recent/*.yaml).
+BD-VITGAN:
+  reference: "[32] Zhang et al., Geo-spatial Information Science, 2025"
+  note: "Reports mainly LPIPS/NIQE on its own dataset; retrain for UC Merced x4."
+DTWSTSR:
+  reference: "[34] Yao et al., IEEE JSTARS, 2026"
+  note: "Different benchmark/splits; retrain for UC Merced x4."
+HAM:
+  reference: "Li et al., HAM: Hierarchical Attention Mamba, IEEE TGRS, 2025"
+  note: "Mamba-based; different benchmark; retrain for UC Merced x4."

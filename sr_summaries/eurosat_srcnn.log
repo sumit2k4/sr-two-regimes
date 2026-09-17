@@ -1,0 +1,14 @@
+[eurosat_srcnn] params=69,251 train=18900 p_lr=16 hr=64 data_load=13s
+ep   5 pix 0.0242 perc 0.000 adv 0.000 D 0.000 valPSNR 30.306 [0.5m]
+ep  10 pix 0.0218 perc 0.000 adv 0.000 D 0.000 valPSNR 32.628 [0.6m]
+ep  15 pix 0.0213 perc 0.000 adv 0.000 D 0.000 valPSNR 30.656 [0.8m]
+ep  20 pix 0.0205 perc 0.000 adv 0.000 D 0.000 valPSNR 33.566 [1.0m]
+ep  25 pix 0.0206 perc 0.000 adv 0.000 D 0.000 valPSNR 33.380 [1.2m]
+ep  30 pix 0.0200 perc 0.000 adv 0.000 D 0.000 valPSNR 33.954 [1.5m]
+ep  35 pix 0.0206 perc 0.000 adv 0.000 D 0.000 valPSNR 34.112 [1.8m]
+ep  40 pix 0.0197 perc 0.000 adv 0.000 D 0.000 valPSNR 34.295 [2.1m]
+ep  45 pix 0.0195 perc 0.000 adv 0.000 D 0.000 valPSNR 34.359 [2.4m]
+ep  50 pix 0.0196 perc 0.000 adv 0.000 D 0.000 valPSNR 34.394 [2.7m]
+ep  55 pix 0.0197 perc 0.000 adv 0.000 D 0.000 valPSNR 34.403 [3.0m]
+ep  60 pix 0.0195 perc 0.000 adv 0.000 D 0.000 valPSNR 34.407 [3.3m]
+[eurosat_srcnn] done best val PSNR 34.407 in 3.3 min

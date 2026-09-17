@@ -1,0 +1,44 @@
+{
+ "srcnn": {
+  "label": "SRCNN",
+  "params_m": 0.069251,
+  "gflops": 2.265972736,
+  "ms": 2.99383004506429
+ },
+ "edsr": {
+  "label": "EDSR",
+  "params_m": 1.517571,
+  "gflops": 4.061528064,
+  "ms": 6.794397036234538
+ },
+ "hfgan_p": {
+  "label": "HFGAN-P",
+  "params_m": 15.339941,
+  "gflops": 118.554411008,
+  "ms": 463.4687582651774
+ },
+ "hfgan_g": {
+  "label": "HFGAN-G",
+  "params_m": 15.339941,
+  "gflops": 118.554411008,
+  "ms": 476.3548533121745
+ },
+ "resnet18": {
+  "label": "ResNet-18 branch",
+  "params_m": 11.187285,
+  "gflops": 4.737487872,
+  "ms": 6.02575937906901
+ },
+ "gate": {
+  "label": "Gate MLP",
+  "params_m": 0.003523,
+  "gflops": 6.848e-06,
+  "ms": 0.23341973622639972
+ },
+ "qge_total": {
+  "label": "\\textbf{QGE end to end}",
+  "params_m": 50.422889999999995,
+  "gflops": 136.828409536,
+  "ms": 501.45994822184247
+ }
+}

@@ -1,0 +1,24 @@
+model:
+  rrdb_blocks: 16
+  embed_dim: 256
+  num_heads: 8
+  num_layers: 4
+
+data:
+  hr_size: 256        # HR patch size
+  scale: 4            # x4 super-resolution -> LR patch = 64
+  degradation: bicubic   # 'bicubic' (Tables 5-9) or 'blur_noise' (Table 10)
+
+loss:
+  lambda_pixel: 1.0    # L1 (pixel-wise)
+  lambda_percep: 0.01  # VGG-19 perceptual (relu5_4)
+  lambda_adv: 0.005    # adversarial (BCE-with-logits)
+
+train:
+  batch_size: 16
+  epochs: 200
+  lr: 0.0001
+  lr_decay_every: 50   # x0.5 every 50 epochs
+
+# Seeds used in the paper for the three independent runs:
+seeds: [42, 123, 999]

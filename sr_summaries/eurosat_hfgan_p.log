@@ -1,0 +1,16 @@
+[eurosat_hfgan_p] params=15,143,333 train=18900 p_lr=16 hr=64 data_load=18s
+ep   5 pix 0.0236 perc 1.329 adv 0.000 D 0.000 valPSNR 31.958 [4.4m]
+ep  10 pix 0.0223 perc 1.268 adv 0.000 D 0.000 valPSNR 32.509 [7.8m]
+ep  15 pix 0.0215 perc 1.220 adv 0.000 D 0.000 valPSNR 32.709 [11.2m]
+ep  20 pix 0.0223 perc 1.215 adv 0.000 D 0.000 valPSNR 32.935 [14.6m]
+ep  25 pix 0.0217 perc 1.192 adv 0.000 D 0.000 valPSNR 33.221 [18.1m]
+ep  30 pix 0.0204 perc 1.141 adv 0.000 D 0.000 valPSNR 33.659 [21.5m]
+ep  35 pix 0.0210 perc 1.161 adv 0.000 D 0.000 valPSNR 33.622 [24.9m]
+ep  40 pix 0.0201 perc 1.103 adv 0.000 D 0.000 valPSNR 33.727 [28.3m]
+ep  45 pix 0.0201 perc 1.122 adv 0.000 D 0.000 valPSNR 34.067 [31.7m]
+ep  50 pix 0.0204 perc 1.125 adv 0.000 D 0.000 valPSNR 34.144 [35.1m]
+ep  55 pix 0.0213 perc 1.124 adv 0.000 D 0.000 valPSNR 34.168 [38.5m]
+ep  60 pix 0.0202 perc 1.093 adv 0.000 D 0.000 valPSNR 34.404 [42.0m]
+ep  65 pix 0.0206 perc 1.101 adv 0.000 D 0.000 valPSNR 34.375 [45.4m]
+time cap reached at epoch 65
+[eurosat_hfgan_p] done best val PSNR 34.404 in 45.4 min

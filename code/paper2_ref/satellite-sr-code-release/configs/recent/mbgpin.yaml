@@ -1,0 +1,16 @@
+name: mbgpin
+family: "MBGPIN (VQGAN generative prior)"
+dataset: ucmerced
+scale: 4
+degradation: bicubic            # OUR common protocol for retraining
+train_split: splits/ucmerced_train.txt
+val_split: splits/ucmerced_val.txt
+test_split: splits/ucmerced_test.txt
+official_repo: "<fill official mbgpin repo URL>"
+# Retrain from scratch under our protocol; evaluate with our metric scripts.
+lr: 1.0e-4
+epochs: 200
+batch_size: 16
+seeds: [42, 123, 999]
+# If a citable UC Merced x4 figure exists it is recorded in published_figures.yaml
+# and reported with a "*" instead of being overwritten by this retraining.

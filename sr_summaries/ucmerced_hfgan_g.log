@@ -1,0 +1,20 @@
+[ucmerced_hfgan_g] params=15,339,941 train=1470 p_lr=32 hr=256 data_load=6s
+ep   5 pix 0.0450 perc 1.647 adv 1.680 D 0.903 valPSNR 28.037 [4.5m]
+ep  10 pix 0.0404 perc 1.569 adv 1.558 D 0.987 valPSNR 28.378 [8.9m]
+ep  15 pix 0.0438 perc 1.599 adv 1.433 D 0.950 valPSNR 27.847 [13.2m]
+ep  20 pix 0.0402 perc 1.528 adv 1.528 D 1.017 valPSNR 29.323 [17.6m]
+ep  25 pix 0.0375 perc 1.446 adv 0.718 D 1.346 valPSNR 29.526 [21.9m]
+ep  30 pix 0.0365 perc 1.381 adv 0.803 D 1.209 valPSNR 29.569 [26.3m]
+ep  35 pix 0.0385 perc 1.459 adv 1.478 D 0.986 valPSNR 29.148 [30.6m]
+ep  40 pix 0.0403 perc 1.444 adv 1.453 D 1.008 valPSNR 29.427 [34.9m]
+ep  45 pix 0.0409 perc 1.520 adv 1.811 D 1.104 valPSNR 29.221 [39.2m]
+ep  50 pix 0.0418 perc 1.454 adv 1.167 D 1.221 valPSNR 29.207 [43.6m]
+ep  55 pix 0.0357 perc 1.407 adv 1.266 D 0.719 valPSNR 28.911 [47.9m]
+ep  60 pix 0.0406 perc 1.503 adv 1.383 D 0.896 valPSNR 28.578 [52.2m]
+ep  65 pix 0.0412 perc 1.426 adv 1.295 D 1.077 valPSNR 29.010 [56.6m]
+ep  70 pix 0.0389 perc 1.406 adv 1.675 D 0.659 valPSNR 28.754 [61.1m]
+ep  75 pix 0.0413 perc 1.423 adv 1.282 D 1.041 valPSNR 28.653 [65.4m]
+ep  80 pix 0.0402 perc 1.410 adv 1.359 D 0.898 valPSNR 28.558 [69.7m]
+ep  85 pix 0.0410 perc 1.460 adv 1.287 D 1.031 valPSNR 28.922 [74.0m]
+time cap reached at epoch 87
+[ucmerced_hfgan_g] done best val PSNR 29.569 in 75.7 min

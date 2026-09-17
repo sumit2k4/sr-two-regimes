@@ -1,0 +1,14 @@
+[ucmerced_srcnn] params=69,251 train=1470 p_lr=32 hr=256 data_load=6s
+ep   5 pix 0.0402 perc 0.000 adv 0.000 D 0.000 valPSNR 28.973 [0.5m]
+ep  10 pix 0.0386 perc 0.000 adv 0.000 D 0.000 valPSNR 29.234 [0.8m]
+ep  15 pix 0.0381 perc 0.000 adv 0.000 D 0.000 valPSNR 29.479 [1.1m]
+ep  20 pix 0.0380 perc 0.000 adv 0.000 D 0.000 valPSNR 28.943 [1.4m]
+ep  25 pix 0.0386 perc 0.000 adv 0.000 D 0.000 valPSNR 29.404 [1.7m]
+ep  30 pix 0.0365 perc 0.000 adv 0.000 D 0.000 valPSNR 29.553 [2.1m]
+ep  35 pix 0.0370 perc 0.000 adv 0.000 D 0.000 valPSNR 29.639 [2.4m]
+ep  40 pix 0.0367 perc 0.000 adv 0.000 D 0.000 valPSNR 29.741 [2.7m]
+ep  45 pix 0.0367 perc 0.000 adv 0.000 D 0.000 valPSNR 29.764 [3.0m]
+ep  50 pix 0.0363 perc 0.000 adv 0.000 D 0.000 valPSNR 29.790 [3.3m]
+ep  55 pix 0.0365 perc 0.000 adv 0.000 D 0.000 valPSNR 29.799 [3.7m]
+ep  60 pix 0.0363 perc 0.000 adv 0.000 D 0.000 valPSNR 29.795 [4.0m]
+[ucmerced_srcnn] done best val PSNR 29.799 in 4.0 min
